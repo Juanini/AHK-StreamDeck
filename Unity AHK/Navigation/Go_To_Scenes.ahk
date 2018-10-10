@@ -9,12 +9,9 @@ SetTitleMatchMode,2
 IfWinActive, Unity 20
 {
 	Send, ^5
+	Send, ^F
+	Send, _Scene
 	Send, {Home}
-	Send, {BS 10}
-	Send, {Home}
-	Send, {Enter}
-	Send, {Home}
-	Send, {Right 5}
 	Send, {Enter}
 	Return
 }

@@ -6,8 +6,5 @@ SetTitleMatchMode,2
 
 IfWinActive, Unity 20
 {
-    Send, !g
-	Send, {Down 16}
-	Send, {Enter}
-    Return
+    Send, ^1
 }

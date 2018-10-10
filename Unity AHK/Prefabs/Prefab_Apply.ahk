@@ -7,7 +7,7 @@ SetTitleMatchMode,2
 IfWinActive, Unity 20
 {
     Send, !g
-	Send, {Down 14}
+	Send, {Down 15}
 	Send, {Enter}
     Return
 }
